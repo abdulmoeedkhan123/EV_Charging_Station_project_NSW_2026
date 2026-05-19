@@ -1,0 +1,52 @@
+Category,Insight
+Data Loading and Cleaning,"Initial dataset loaded with 1958 entries and 12 columns. Columns 'OBJECTID' and 'Station_name' dropped due to high sparsity. Columns renamed for clarity: 'LGANAME' to 'Council', 'PCODE' to 'Postcode', 'Charger_rating' to 'Power Per Plug(kW)', 'Number_of_plugs' to 'Total Plugs', 'Charger_Type' to 'Charger Type'. A new 'Location' column created."
+Charger Statistics,Total AC Chargers: 1427
+Charger Statistics,Total DC Chargers: 433
+Charger Statistics,Total Working Chargers (AC & DC): 1860
+Charger Statistics,Total Upcoming Chargers: 98
+Geographic Distribution (Councils),"The council with the most chargers is: Sydney, Council of the City of with 249 total plugs."
+Geographic Distribution (Councils),The council with the minimum chargers is: Bland Shire Council with 2 total plugs.
+Geographic Distribution (Councils),"Top 3 Councils with Most DC Fast Chargers:
+                       Council  Total Plugs
+        Blacktown City Council           67
+         Randwick City Council           66
+Sydney, Council of the City of           57"
+Geographic Distribution (Councils),"Top 3 Councils with Most AC Slow Chargers:
+                       Council  Total Plugs
+Sydney, Council of the City of          192
+            Inner West Council          175
+        Newcastle City Council          112"
+Geographic Distribution (Postcodes),The postcode with the maximum chargers is: 2000 with 96 total plugs.
+Geographic Distribution (Postcodes),The postcode with the minimum chargers is: 2069 with 1 total plugs.
+Geographic Distribution (Postcodes),The postcode with the most DC fast chargers is: 2580 with 38 total plugs.
+Geographic Distribution (Postcodes),The postcode with the most AC slow chargers is: 2000 with 94 total plugs.
+Operator Market Share,"Top 3 Operators by Charger Count:
+ Operator  Charger Count
+ Exploren            301
+    Tesla            260
+Chargefox            254"
+Operator Market Share,"Top 3 Operators with Most DC Fast Chargers:
+Operator  DC Charger Count
+    Evie                84
+    NRMA                67
+   Tesla                54"
+Operator Market Share,"Top 3 Operators with Most AC Slow Chargers:
+     Operator  AC Charger Count
+     Exploren               278
+Non-networked               217
+        Tesla               206"
+Charging Capacity Analysis,Total Charging Capacity in NSW: 236274.00 kW
+Charging Capacity Analysis,"Charging Station with Maximum Plugs:
+Station Address: 2 Conferta Ave Tallawong NSW 2762
+Operator: Non-networked
+Total Plugs: 35
+Charger Type: AC
+Power Per Plug(kW): nan"
+Charging Capacity Analysis,"Charging Station with Maximum Charging Capacity:
+Station Address: M4 Motorway Westbound, Sydney, 2766
+Operator: Ampol
+Total Plugs: 10
+Charger Type: DC
+Power Per Plug(kW): 400.0
+Charging Capacity (kW): 4000.0"
+Gaps,The average distance between charging stations is: 247.66 km
